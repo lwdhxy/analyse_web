@@ -196,6 +196,7 @@ def delete_user(id):
     return res.data
 
 
+# 重置密码
 @userBp.route('/reset_password', methods=["POST"])
 def reset_password():
     res = ResMsg()
